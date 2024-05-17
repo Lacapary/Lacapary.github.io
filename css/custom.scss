@@ -4,6 +4,20 @@
 $link-color:#78C207;
 $code-bg: #B7B4B7;
 $code-color: #913351;
+
+// Define color variables
+// Navigation bar styles
+.navbar {
+  // Navigation links within the navbar
+  .nav-link {
+    color: #B7B4B7;
+  }
+  // Navigation bar title
+  .navbar-title {
+    color:  #B7B4B7;
+  }
+}
+
 /*-- scss:rules --*/
 h1, h2, h3, h4, h5, h6 {
   color:#913351;
@@ -19,6 +33,7 @@ kbd {
 thead th {
   text-transform: none;
 }
+
 
 #mountain-section {
             width: 100%;

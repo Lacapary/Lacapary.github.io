@@ -2,7 +2,8 @@
 title: "About me"
 ---
 
-<p><img src="media/io.jpg" width="50%" style="position:relative;float: right; margin:-10px 0 0 15px;" /></p> I am a __global change ecologist__ and __biogeographer__, currently working in the [EDGE LAB](https://edge-ecology.com/)  at [Department of Biological & Environmental Sciences](https://www.gu.se/en/biological-environmental-sciences) at [University of Gothenburg](https://www.gu.se/en). 
+<p><img src="media/io.jpg" width="50%" style="position:relative;float:right;margin:-10px 0 0 15px;" /></p>
+I am a __global change ecologist__ and __biogeographer__, currently working in the [EDGE LAB](https://edge-ecology.com/)  at [Department of Biological & Environmental Sciences](https://www.gu.se/en/biological-environmental-sciences) at [University of Gothenburg](https://www.gu.se/en). 
 
 My research aims to determine the drivers of the complex patterns of biodiversity change over time around the world's mountains.
 

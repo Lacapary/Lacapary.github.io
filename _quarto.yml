@@ -51,11 +51,7 @@ format:
       dark: [simplex, css/dark.scss, css/custom.scss]
     code-overflow: wrap
     include-after-body: mountains.html
-    code-tools: 
-      source: true
-      toggle: false
-      caption: none
-    code-link: true
+
 execute: 
   echo: false
 

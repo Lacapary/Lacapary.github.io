@@ -1,0 +1,49 @@
+---
+title: "About me"
+---
+
+<p><img src="media/IO.jpg" width="50%" style="position:relative;float: right; margin:-10px 0 0 15px;" /></p> I am a __global change ecologist__ and __biogeographer__, currently working in the [EDGE LAB](https://edge-ecology.com/)  at [Department of Biological & Environmental Sciences](https://www.gu.se/en/biological-environmental-sciences) at [University of Gothenburg](https://www.gu.se/en). 
+
+My research aims to determine the drivers of the complex patterns of biodiversity change over time around the world's mountains.
+
+My academic interest in ecology stems from my upbringing in Colombia, where I was surrounded by diverse landscapes and ecosystems. Sadly, I also witnessed firsthand the threats posed by climate change and human activities to biodiversity. Influenced by these experiences, my goal is to understand the underlying patterns and processes contributing to biodiversity change. 
+
+As a computational ecologist, I utilize analytical and Bayesian modeling approaches to develop innovative computational frameworks to facilitate answering fundamental questions in ecology. My research involves analyzing big data and synthesizing global processes that shape biodiversity's distribution across space and time. While my work has primarily focused on the Neo-tropics, I also have experience in Forest,Alpine,Tundra and Mediterranean ecosystems.
+
+In addition to my research, I am passionate about data visualization and communicating science to a broader audience, particularly in the context of wildlife conservation.
+
+
+My research activity is structured around five main lines:  
+
+  * Biogeography
+  * Spatial modeling (GIS)
+  * Species Range shift
+  * Landscape ecology
+  * Biodiversity conservation
+
+
+## Education
+
+My educational background is in ecology with an emphasis on community ecology and spatial modeling. I obtained a bachelor's degree in Ecology from [Pontifical Xavierian University](https://www.javeriana.edu.co/inicio) and a Master’s degree in Ecology and Evolution from [University of Amsterdam](https://www.uva.nl/en). I did my PhD at the University of Bergen [University of Bergen](https://www.uib.no/en/bio).
+
+## My Interests
+  
+  * Biogeography
+  * Quantitative ecology
+  * Bayesian inference 
+  * Modeling and simulation
+  * R language
+  * Data visualization
+  * Photography
+  * Digital illustration
+  
+<br>
+  
+<center>
+
+<a href="media/CV_L_Camila Pacheco_Riaño.pdf" download="cv.pdf" class="btn btn-outline-primary" role="button">CV</a>
+
+</center>
+
+<br>
+

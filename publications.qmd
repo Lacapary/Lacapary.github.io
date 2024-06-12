@@ -12,9 +12,9 @@ for(i in 1:length(bib)){
 }
 
 ```
+::: {.panel-tabset}
 
-
-## Journal Articles
+### Journal Articles
 ```{r papers, results = "asis"}
 
 papers <- bib[bib$bibtype == "Article"]
@@ -25,7 +25,7 @@ PrintBibliography(papers, .opts = list(style = "markdown", sorting = "ydnt", max
 
 Number of papers: `r sum(bib$bibtype == "Article")`\
 
-## Presentations and Posters
+### Presentations and Posters
 
 ```{r conferences, results = "asis"}
 
@@ -35,7 +35,7 @@ NoCite(conference)
 PrintBibliography(conference, .opts = list(style = "markdown", sorting = "ydnt", max.names = 20, no.print.fields = c("ISSN", "month", "date")))
 ```
 
-## Others 
+### Others 
 ```{r other, results = "asis"}
 
 other <- bib[bib$bibtype != "Article"]
@@ -44,11 +44,13 @@ NoCite(other)
 PrintBibliography(other, .opts = list(style = "markdown", sorting = "ydnt", max.names = Inf, no.print.fields = c("number", "eprint", "issn", "isbn", "url", "month", "date")))
 ```
 
-## Thesis
+###     Thesis
 
   *   **Pacheco-Riaño, L.C.** (2018). Assessing the impact of fragmentation on plant dispersal in Andean mountains. *Master thesis*. University of Amsterdam.
   *   **Pacheco-Riaño, L.C.** (2018). Changing land use cover patterns after intensification of the irrigated agriculture in the Rio Grande River watershed – Spain. *Master thesis*. University of Amsterdam.
   *   **Pacheco-Riaño, L.C.** (2015). Bird communities, their functional groups and ecosystem services in a Colombian coffee landscape.*Bachelor's  thesis* 
+
+:::  
 
 ::: {.callout-important}
 

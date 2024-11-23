@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+
+// Base document colors
+$body-bg: #23252f;
+$body-color: white;
+$link-color: #77D33D;
+$code-bg: #9E9A9E;
+$code-color: #913351;
+
+$light: #525252;
+
+// Navigation element colors
+$footer-bg: #124f64;
+$navbar-bg: #124f64;
+
+
+.nav-tabs .nav-item .nav-link.active {
+  color:#913351;
+}
+
+// Code blocks
+$code-block-bg-alpha: -.8;
+
+
+// Bootstrap popovers
+$popover-bg: #242424;
+
+// Bootstrap inputs
+$input-bg: #242424;
+$dropdown-bg: $body-bg;
+$dropdown-color: $body-color;
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-bg: $gray-600;
+$dropdown-link-hover-color: white;
+
+
+/*-- scss:rules --*/
+
+.layout-example {
+  background: $gray-700;
+}

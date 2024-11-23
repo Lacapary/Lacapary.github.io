@@ -1,0 +1,41 @@
+---
+title: "Camila Pacheco Riaño, PhD"
+about:
+  template: trestles
+  image: media/io.JPG
+  links:
+    - text: "{{< iconify simple-icons:bluesky >}} @lacapary"
+      href: https://bsky.app/profile/lacapary.bsky.social
+    - icon: github
+      text: Github
+      href: https://github.com/lacapary/
+    - text: "{{< ai researchgate >}} Researchgate"
+      href: https://www.researchgate.net/profile/L-Camila-Pacheco-Riano
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=EsZhToUAAAAJ&hl=en
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0000-0002-8539-4816
+    - icon: twitter-x
+      text: "@lacapary"
+      href: https://twitter.com/lacapary
+
+---
+
+### Hi there!
+
+I'm glad you've found your way to my webpage. As an ecologist who specializes in biogeography, I'm passionate about understanding how living things are distributed across the planet and the factors that shape those patterns. Thank you for stopping by!
+
+
+## Contact 
+
+  
+  * Office: Medicinaregatan 7B 41390 Göteborg
+
+<center>
+  <a href="mailto:pachecoriano.c@gmail.com?subject=Subject&body=Body%20Text" class="btn btn-outline-primary" role="button">
+    <i class="fa fa-envelope"></i> Email Me
+  </a>
+</center>
+
+
+<p style="text-align: center;">*I'll be happy to get in touch!* </p>

@@ -1,0 +1,48 @@
+---
+title: "About me"
+---
+
+I am a **global change ecologist** and **biogeographer**, currently working in the [EDGE LAB](https://edge-ecology.com/) at [Department of Biological & Environmental Sciences](https://www.gu.se/en/biological-environmental-sciences) at [University of Gothenburg](https://www.gu.se/en).
+
+My research focuses on understanding what drives the complex patterns of biodiversity change over time in mountain regions around the world.
+
+I grew up in Colombia, surrounded by stunning landscapes and diverse ecosystems, which sparked my passion for ecology. At the same time, I witnessed the very real threats of climate change and human activities on biodiversity, experiences that shaped my drive to understand the patterns and processes behind these changes.
+
+As a computational ecologist, I use analytical tools and Bayesian modeling to create innovative frameworks that help answer key ecological questions. My work focuses on analyzing big data and uncovering the global processes that influence biodiversity's distribution across space and time. While much of my research has centered on the Neotropics, I’ve also explored Forest, Alpine, Tundra, and Mediterranean ecosystems.
+
+In addition to my research, I’m deeply passionate about data visualization and making science accessible to a wider audience, especially when it comes to wildlife conservation.
+
+My research activity is structured around five main lines:
+
+-   Biogeography
+-   Spatial modeling (GIS)
+-   Species Range shift
+-   Landscape ecology
+-   Biodiversity conservation
+
+## Education
+
+My educational background is in ecology with an emphasis on community ecology and spatial modeling.
+
+{{< iconify game-icons:graduate-cap >}} ***Ph.D.*** in Global change biology 2023
+
+[University of Bergen](https://www.uib.no/en/bio)
+
+{{< iconify game-icons:graduate-cap >}} ***M.Sc.*** in Ecology and Evolution 2019
+
+[University of Amsterdam](https://www.uva.nl/en)
+
+{{< iconify game-icons:graduate-cap >}} ***B.Sc.*** in Ecology 2007
+
+[Pontifical Xavierian University](https://www.javeriana.edu.co/inicio)
+
+## My Interests
+
+-   Biogeography
+-   Quantitative ecology
+-   Bayesian inference
+-   Modeling and simulation
+-   R language
+-   Data visualization
+-   Learning new skills
+-   Digital illustration

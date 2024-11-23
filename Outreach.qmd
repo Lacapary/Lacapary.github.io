@@ -1,0 +1,48 @@
+---
+title: "Popular Science & Outreach"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+<span style="font-size: 35px;">{{< ai inaturalist >}}</span>Contributions to [iNaturalist](href="https://www.inaturalist.org/people/lcamilapachecoriao" )
+
+- Contributions to TidyTuesday: **#TidyTuesday** is a weekly data project aimed at the R ecosystem and the `{tidyverse}` package bundle to wrangle, explore and visualize the datasets.
+
+  →  [All my contributions](https://github.com/Lacapary/T_Tuesday)
+
+-   **Can Plants “Move” Fast Enough to Escape Climate Change?** <br>
+    Here you can find the kids paper
+    [FYM](https://kids.frontiersin.org/articles/10.3389/frym.2023.947230)
+    <br>
+
+    <div style="text-align: center;">
+
+    <figure>
+
+    <img src="https://www.frontiersin.org/files/Articles/947230/frym-11-947230-HTML/image_m/figure-3.jpg" style="margin-right: 10px;" width="80%"/>
+
+    </div>
+
+    <figcaption>Mismatch between the temperature to which the plants are
+    adapted (Past) and the new temperatures due to climate change
+    (Present)</figcaption>
+
+    </figure>
+
+<br>
+
+-   **How will the climate be in Norway in 2100?** <br> We found that
+    82.5% of the mountain areas in Norway currently above the forest
+    line will grow forest. This means fewer alpine areas (if the forest
+    keeps pace with climate change, it will probably lag). This
+    projection was base on the RCP 4.5 pathway for the period 2071-2100.
+    Here you can find the interactive website
+    [NRK](https://nrk.no/klima/kommune)
+
+|                                       2013                                       |                                       2100                                       |
+|:----------------------------------:|:----------------------------------:|
+| ![2013](https://static.nrk.no/dh/module/kommuneklima/static/media/20133EcuC.jpg) | ![2100](https://static.nrk.no/dh/module/kommuneklima/static/media/21002sEH-.jpg) |
+
+<figcaption>Different shades of green: different forest types in
+Mountains.Dark grey:alpine areas</figcaption>

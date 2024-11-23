@@ -1,0 +1,72 @@
+
+/*-- scss:defaults --*/
+// Base document colors
+$link-color:#78C207;
+$code-bg: #B7B4B7;
+$code-color: #913351;
+
+// Define color variables
+// Navigation bar styles
+.navbar {
+  // Navigation links within the navbar
+  .nav-link {
+    color: #B7B4B7;
+  }
+  // Navigation bar title
+  .navbar-title {
+    color:  #B7B4B7;
+  }
+}
+
+.subtitle {
+    font-size: 4px; /* Adjust the size as needed */
+    font-style: italic; /* Makes the text italic */
+}
+
+/* Remove the dividing line in trestles theme */
+div.quarto-about-trestles .about-contents {
+    border-left: none !important;
+}
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  color:#913351;
+}
+
+kbd {
+  border-radius: 2px;
+  padding: 2px;
+  border: 1px solid mix(grey, $body-color, 20%);
+  background-color: mix(grey, $body-bg, 20%);  // Changes background color
+}
+
+thead th {
+  text-transform: none;
+}
+
+
+#mountain-section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+#mountain-section img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        
+.btn-outline-primary {
+  color: #913351;
+  border-color: #913351;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: #913351;
+  border-color: #913351;
+}
+

@@ -37,5 +37,5 @@ I'm glad you've found your way to my webpage. As an ecologist who specializes in
   </a>
 </center>
 
-
+<br>
 <p style="text-align: center;">*I'll be happy to get in touch!* </p>

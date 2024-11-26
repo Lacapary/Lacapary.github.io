@@ -5,8 +5,15 @@ editor:
     wrap: 72
 ---
 
-<span style="font-size: 35px;">{{< ai inaturalist >}}</span>Contributions to [iNaturalist](href="https://www.inaturalist.org/people/lcamilapachecoriao" )
-
+<span style="font-size: 35px;">{{< ai inaturalist >}}</span>Contributions to [iNaturalist](https://www.inaturalist.org/stats/2024/lcamilapachecoriao#sharing)
+ <br>
+  <div style="text-align: center;">
+   <figure>
+  <img src="media/inaturalis.jpg" alt="My Image" width="60%">
+  </div>
+  </figure>
+  <br>
+     
 - Contributions to TidyTuesday: **#TidyTuesday** is a weekly data project aimed at the R ecosystem and the `{tidyverse}` package bundle to wrangle, explore and visualize the datasets.
 
   →  [All my contributions](https://github.com/Lacapary/T_Tuesday)

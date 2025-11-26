@@ -5,11 +5,11 @@ editor:
     wrap: 72
 ---
 
-<span style="font-size: 35px;">{{< ai inaturalist >}}</span>Contributions to [iNaturalist](https://www.inaturalist.org/stats/2024/lcamilapachecoriao#sharing)
+<span style="font-size: 35px;">{{< ai inaturalist >}}</span>Contributions to [iNaturalist](https://www.inaturalist.org/stats/2025/lcamilapachecoriao)
  <br>
   <div style="text-align: center;">
    <figure>
-  <img src="media/inaturalis.jpg" alt="My Image" width="60%">
+  <img src="media/inaturalis_2025.jpg" alt="My Image" width="60%">
   </div>
   </figure>
   <br>

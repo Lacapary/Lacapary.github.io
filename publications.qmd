@@ -7,9 +7,12 @@ library("RefManageR")
 source("R/refman_style.R")
 bib <- ReadBib("media/papers.bib")
 
-for(i in 1:length(bib)){
-  bib[[i]]$pages <- gsub("(?<!-)-(?!-)", "--", gsub(" ", "", bib[[i]]$pages), perl = TRUE)
-}
+biblio_opts <- list(
+  style = "markdown",
+  sorting = "ydnt",
+  max.names = Inf,
+  no.print.fields = c("number", "eprint", "issn", "isbn", "url", "month", "date")
+)
 
 ```
 
@@ -17,11 +20,9 @@ for(i in 1:length(bib)){
 ### Journal Articles
 
 ```{r papers, results = "asis"}
-
-papers <- bib[bib$bibtype == "Article"]
-
+papers <- SearchBib(bib, bibtype = "Article")
 NoCite(papers)
-PrintBibliography(papers, .opts = list(style = "markdown", sorting = "ydnt", max.names = Inf, no.print.fields = c("number", "eprint", "issn", "isbn", "url", "month", "date")))
+PrintBibliography(papers, .opts = biblio_opts)
 ```
 
 Number of papers: `r sum(bib$bibtype == "Article")`\
@@ -48,14 +49,10 @@ PrintBibliography(other, .opts = list(style = "markdown", sorting = "ydnt", max.
 
 ### Thesis
 
-- **Unraveling the complexity of plant community responses to climate change**\ (2023)
+-  **Pacheco-Riaño, L.C.** (2023). Unraveling the complexity of plant community responses to climate change.
 *Supervised by: [John Arvid Grytnes](https://www.researchgate.net/profile/John_Arvid_Grytnes),* [*Suzette Flantua*](https://www.researchgate.net/profile/Suzette_Flantua) and [*Fride Høistad Schei*](https://www.researchgate.net/profile/Fride_Schei) *PhD thesis*. University of Bergen
 
 -   **Pacheco-Riaño, L.C.** (2018). Assessing the impact of fragmentation on plant dispersal in Andean mountains. *Master thesis*. University of Amsterdam.
 -   **Pacheco-Riaño, L.C.** (2018). Changing land use cover patterns after intensification of the irrigated agriculture in the Rio Grande River watershed – Spain. *Master thesis*. University of Amsterdam.
 -   **Pacheco-Riaño, L.C.** (2015). Bird communities, their functional groups and ecosystem services in a Colombian coffee landscape.*Bachelor's thesis*. Pontificia Universidad Javeriana .
-:::
-
-::: callout-important
-Enhanced references courtesy of [Richardjtelford's](https://github.com/richardjtelford/richardjtelford.github.io/) repository.
 :::

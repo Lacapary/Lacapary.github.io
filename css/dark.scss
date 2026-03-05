@@ -39,3 +39,7 @@ $dropdown-link-hover-color: white;
 .layout-example {
   background: $gray-700;
 }
+
+body.quarto-dark .me-highlight {
+  color: #80ced6; /* Soft blue/cyan in dark mode */
+}

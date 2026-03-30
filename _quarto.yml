@@ -11,7 +11,6 @@ website:
   repo-url: https://github.com/Lacapary/Lacapary.github.io
   page-navigation: true
   search: true
-  sitemap: true
   open-graph:
     title: "Camila Pacheco-Riaño"
     description: "Personal website of Camila Pacheco-Riaño, global change ecologist and biogeographer."

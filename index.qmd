@@ -1,8 +1,9 @@
 ---
 title: "Camila Pacheco Riaño, PhD"
+description: "Personal website of Camila Pacheco-Riaño, global change ecologist and biogeographer at the University of Gothenburg."
 about:
   template: trestles
-  image: media/io.JPG
+  image: media/IO.jpg
   links:
     - text: "{{< iconify simple-icons:bluesky >}} @lacapary"
       href: https://bsky.app/profile/lacapary.bsky.social
@@ -34,6 +35,10 @@ I'm glad you've found your way to my webpage. As an ecologist who specializes in
 <center>
   <a href="mailto:pachecoriano.c@gmail.com?subject=Subject&body=Body%20Text" class="btn btn-outline-primary" role="button">
     <i class="fa fa-envelope"></i> Email Me
+  </a>
+  &nbsp;
+  <a href="media/CV_L_Camila Pacheco_Riaño.pdf" download="cv.pdf" class="btn btn-outline-primary" role="button">
+    <i class="bi bi-file-earmark-person"></i> Download CV
   </a>
 </center>
 

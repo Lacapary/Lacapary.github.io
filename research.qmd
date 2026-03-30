@@ -1,5 +1,6 @@
 ---
 title: "Research"
+description: "Ongoing and former research projects by Camila Pacheco-Riaño on alpine biogeography, species range shifts, and global change ecology."
 ---
 
 ## Ongoing Research 

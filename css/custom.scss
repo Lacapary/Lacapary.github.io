@@ -19,8 +19,8 @@ $code-color: #913351;
 }
 
 .subtitle {
-    font-size: 4px; /* Adjust the size as needed */
-    font-style: italic; /* Makes the text italic */
+    font-size: 14px;
+    font-style: italic;
 }
 
 /* Remove the dividing line in trestles theme */
@@ -73,4 +73,9 @@ thead th {
 .me-highlight {
   font-weight: bold;
   color:#124f64; /* Green in light mode */
+}
+
+.nav-footer {
+  font-size: 0.85rem;
+  padding: 0.5rem 0;
 }

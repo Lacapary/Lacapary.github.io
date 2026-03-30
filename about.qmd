@@ -1,5 +1,6 @@
 ---
 title: "About me"
+description: "About Camila Pacheco-Riaño: global change ecologist and biogeographer studying mountain biodiversity and climate change."
 ---
 
 I am a **global change ecologist** and **biogeographer**, currently working in the [EDGE LAB](https://edge-ecology.com/) at [Department of Biological & Environmental Sciences](https://www.gu.se/en/biological-environmental-sciences) at [University of Gothenburg](https://www.gu.se/en).
@@ -46,3 +47,6 @@ My educational background is in ecology with an emphasis on community ecology an
 -   Data visualization
 -   Learning new skills
 -   Digital illustration
+
+<br>
+<center><a href="media/CV_L_Camila Pacheco_Riaño.pdf" download="cv.pdf" class="btn btn-outline-primary" role="button"><i class="bi bi-file-earmark-person"></i> Download CV</a></center>

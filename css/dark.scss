@@ -43,3 +43,37 @@ $dropdown-link-hover-color: white;
 body.quarto-dark .me-highlight {
   color: #80ced6; /* Soft blue/cyan in dark mode */
 }
+
+/* Headings: lighter rose instead of dark burgundy */
+body.quarto-dark h1,
+body.quarto-dark h2,
+body.quarto-dark h3,
+body.quarto-dark h4,
+body.quarto-dark h5,
+body.quarto-dark h6 {
+  color: #e8a0b4;
+}
+
+/* Outlined primary button */
+body.quarto-dark .btn-outline-primary {
+  color: #e8a0b4;
+  border-color: #e8a0b4;
+}
+
+body.quarto-dark .btn-outline-primary:hover,
+body.quarto-dark .btn-outline-primary:focus,
+body.quarto-dark .btn-outline-primary:active {
+  color: #23252f;
+  background-color: #e8a0b4;
+  border-color: #e8a0b4;
+}
+
+/* Trestles about section: ensure no harsh border in dark mode */
+body.quarto-dark div.quarto-about-trestles .about-contents {
+  border-left: none !important;
+}
+
+/* Active tab color */
+body.quarto-dark .nav-tabs .nav-item .nav-link.active {
+  color: #e8a0b4;
+}

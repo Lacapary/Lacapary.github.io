@@ -1,6 +1,6 @@
 ---
 title: "Camila Pacheco Riaño, PhD"
-description: "Personal website of Camila Pacheco-Riaño, global change ecologist and biogeographer at the University of Gothenburg."
+description: "Personal website of Camila Pacheco-Riaño, global change ecologist and biogeographer."
 about:
   template: trestles
   image: media/IO.jpg
@@ -37,9 +37,6 @@ I'm glad you've found your way to my webpage. As an ecologist who specializes in
     <i class="fa fa-envelope"></i> Email Me
   </a>
   &nbsp;
-  <a href="media/CV_L_Camila Pacheco_Riaño.pdf" download="cv.pdf" class="btn btn-outline-primary" role="button">
-    <i class="bi bi-file-earmark-person"></i> Download CV
-  </a>
 </center>
 
 <br>

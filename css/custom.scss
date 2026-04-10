@@ -1,70 +1,161 @@
-
 /*-- scss:defaults --*/
+
+// Google Fonts: Playfair Display (headings) + DM Sans (body)
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300;1,9..40,400&display=swap');
+
+// Typography
+$font-family-sans-serif: 'DM Sans', system-ui, -apple-system, sans-serif;
+$headings-font-family: 'Playfair Display', serif;
+$headings-font-weight: 700;
+
 // Base document colors
-$link-color:#78C207;
+$link-color: #78C207;
 $code-bg: #B7B4B7;
 $code-color: #913351;
 
-// Define color variables
 // Navigation bar styles
 .navbar {
-  // Navigation links within the navbar
   .nav-link {
     color: #B7B4B7;
   }
-  // Navigation bar title
+
   .navbar-title {
-    color:  #B7B4B7;
+    color: #B7B4B7;
   }
 }
 
 .subtitle {
-    font-size: 14px;
-    font-style: italic;
+  font-size: 14px;
+  font-style: italic;
 }
 
 /* Hide description from page display, keep it in meta tags for SEO */
 div.description {
-    display: none;
+  display: none;
 }
 
-/* Remove the dividing line in trestles theme */
+/* Remove dividing line in trestles theme */
 div.quarto-about-trestles .about-contents {
-    border-left: none !important;
+  border-left: none !important;
+  padding-top: 1.5rem;
+}
+
+/* Center the content column */
+div.quarto-about-trestles .about-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*-- scss:rules --*/
+
+/* Global body font */
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Global headings */
 h1, h2, h3, h4, h5, h6 {
-  color:#913351;
+  font-family: 'Playfair Display', serif;
+  color: #913351;
+  letter-spacing: -0.02em;
+}
+
+/* Hide generated name in trestles sidebar if needed */
+div.quarto-about-trestles .about-entity .quarto-title {
+  display: none;
+}
+
+/* Force homepage / about title styles */
+.homepage-name,
+.quarto-title-block .title,
+div.quarto-about-trestles .about-contents h1,
+div.quarto-about-trestles .about-contents .title {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  text-align: center;
+  color: #913351;
+  margin-bottom: 0.4rem;
+}
+
+/* Eyebrow / discipline tag */
+.discipline-tag {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #913351;
+  margin-bottom: 2rem;
+  display: block;
+  opacity: 0.85;
+  text-align: center;
+}
+
+/* About section body copy */
+div.quarto-about-trestles .about-contents p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.85;
+  text-align: center;
+  max-width: 48ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Lists in about section */
+div.quarto-about-trestles .about-contents ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Section headings on homepage */
+div.quarto-about-trestles .about-contents h2 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+  text-align: center;
+  color: #913351;
 }
 
 kbd {
   border-radius: 2px;
   padding: 2px;
   border: 1px solid mix(grey, $body-color, 20%);
-  background-color: mix(grey, $body-bg, 20%);  // Changes background color
+  background-color: mix(grey, $body-bg, 20%);
 }
 
 thead th {
   text-transform: none;
 }
 
-
 #mountain-section {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #mountain-section img {
-            max-width: 100%;
-            max-height: 100%;
-        }
-        
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .btn-outline-primary {
   color: #913351;
   border-color: #913351;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .btn-outline-primary:hover,
@@ -77,10 +168,11 @@ thead th {
 
 .me-highlight {
   font-weight: bold;
-  color:#124f64; /* Green in light mode */
+  color: #124f64;
 }
 
 .nav-footer {
   font-size: 0.85rem;
   padding: 0.5rem 0;
+  font-family: 'DM Sans', sans-serif;
 }

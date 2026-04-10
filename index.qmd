@@ -22,22 +22,21 @@ about:
 
 ---
 
-### Hi there!
+<p class="homepage-name">Camila Pacheco Riaño, PhD</p>
+<span class="discipline-tag">Global Change Ecology · Biogeography</span>
 
-I'm glad you've found your way to my webpage. As an ecologist who specializes in biogeography, I'm passionate about understanding how living things are distributed across the planet and the factors that shape those patterns. Thank you for stopping by!
+I study how living things are distributed across the planet and what shapes those patterns, from local habitats to continental scales. My work sits at the intersection of ecology, biogeography, and global change biology.
 
+## Contact
 
-## Contact 
-
-  
-  * Office: Medicinaregatan 7B 41390 Göteborg
+* University of Gothenburg
+* Medicinaregatan 7B, 41390 Göteborg, Sweden
 
 <center>
   <a href="mailto:pachecoriano.c@gmail.com?subject=Subject&body=Body%20Text" class="btn btn-outline-primary" role="button">
     <i class="fa fa-envelope"></i> Email Me
   </a>
-  &nbsp;
 </center>
 
 <br>
-<p style="text-align: center;">*I'll be happy to get in touch!* </p>
+<p style="text-align: center;">*I'll be happy to get in touch!*</p>

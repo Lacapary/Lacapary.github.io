@@ -40,6 +40,23 @@ $dropdown-link-hover-color: white;
   background: $gray-700;
 }
 
+/* Discipline tag dark mode */
+body.quarto-dark .discipline-tag {
+  color: #D4207A;
+  opacity: 1;
+}
+
+/* Section label headings dark mode */
+body.quarto-dark div.quarto-about-trestles .about-contents h2 {
+  color: #D4207A;
+  opacity: 0.7;
+}
+
+/* Homepage name dark mode */
+body.quarto-dark .homepage-name {
+  color: white;
+}
+
 body.quarto-dark .me-highlight {
   color: #80ced6; /* Soft blue/cyan in dark mode */
 }

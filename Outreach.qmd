@@ -1,6 +1,6 @@
 ---
 title: "Popular Science & Outreach"
-description: "Science outreach and popular science contributions by Camila Pacheco-Riaño, including iNaturalist, TidyTuesday, and climate communication."
+description: "Science outreach and popular science contributions."
 editor:
   markdown:
     wrap: 72

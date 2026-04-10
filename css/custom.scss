@@ -23,6 +23,11 @@ $code-color: #913351;
     font-style: italic;
 }
 
+/* Hide description from page display, keep it in meta tags for SEO */
+div.description {
+    display: none;
+}
+
 /* Remove the dividing line in trestles theme */
 div.quarto-about-trestles .about-contents {
     border-left: none !important;

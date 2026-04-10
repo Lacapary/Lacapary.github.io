@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "Peer-reviewed journal articles, conference presentations, and thesis work by Camila Pacheco-Riaño in ecology and biogeography."
+description: "Peer-reviewed journal articles, conference presentations, and thesis work."
 ---
 
 ```{r load}

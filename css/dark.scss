@@ -3,9 +3,9 @@
 // Base document colors
 $body-bg: #23252f;
 $body-color: white;
-$link-color: #77D33D;
+$link-color: #5DC46A;
 $code-bg: #9E9A9E;
-$code-color: #913351;
+$code-color: #A82462;
 
 $light: #525252;
 
@@ -15,7 +15,7 @@ $navbar-bg: #124f64;
 
 
 .nav-tabs .nav-item .nav-link.active {
-  color:#913351;
+  color: #A82462;
 }
 
 // Code blocks
@@ -51,21 +51,21 @@ body.quarto-dark h3,
 body.quarto-dark h4,
 body.quarto-dark h5,
 body.quarto-dark h6 {
-  color: #e8a0b4;
+  color: #D4207A;
 }
 
 /* Outlined primary button */
 body.quarto-dark .btn-outline-primary {
-  color: #e8a0b4;
-  border-color: #e8a0b4;
+  color: #D4207A;
+  border-color: #D4207A;
 }
 
 body.quarto-dark .btn-outline-primary:hover,
 body.quarto-dark .btn-outline-primary:focus,
 body.quarto-dark .btn-outline-primary:active {
   color: #23252f;
-  background-color: #e8a0b4;
-  border-color: #e8a0b4;
+  background-color: #D4207A;
+  border-color: #D4207A;
 }
 
 /* Trestles about section: ensure no harsh border in dark mode */
@@ -75,5 +75,5 @@ body.quarto-dark div.quarto-about-trestles .about-contents {
 
 /* Active tab color */
 body.quarto-dark .nav-tabs .nav-item .nav-link.active {
-  color: #e8a0b4;
+  color: #D4207A;
 }

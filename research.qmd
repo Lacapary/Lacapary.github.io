@@ -12,21 +12,32 @@ description: "Ongoing and former research projects on alpine biogeography, speci
 
 [PPF-Alpine](https://mountainsinmotion.w.uib.no/) aims to take a deep dive into the biogeographical history of alpine systems on a global scale and decipher the drivers of present-day alpine biodiversity.
 
-### Arctic Gloria
-[Ecology Group Unibasel](https://eco.duw.unibas.ch/en/) 
- 
+### A Mechanical Approach for Easier Root Washing
+
+
+## Supervision
+
+### Master's student supervision
+
+* **Maija Tupala** — MSc thesis supervisor, University of Gothenburg (2025–2026). *Stable but site-dependent oak regeneration following conservation thinning: evidence from a 22-year study in western Sweden.*
+
+### PhD co-supervision
+
+* **[Benjamin Roux](https://www.nmbu.no/en/about/employees/benjamin-paul-marie-roux)** — Norwegian University of Life Sciences (2026–present). Biodiversity patterns across mountain systems, elevational distributions, and climate change responses.
+* **[Henninge Torp Bie](https://www.nmbu.no/om/ansatte/henninge-torp-bie)** — Norwegian University of Life Sciences (2026–present). Plant–pollinator interactions and ecological responses to climate change in mountain ecosystems.
 
 ## Memberships
 
 * [International Biogeography Society](www.biogeography.org/)  
 * [Norwegian Ecological Society](https://nordicsocietyoikos.org/national-societies/norwegian-ecological-society)
 * [Gothenburg Global Biodiversity Centre - GGBC](https://www.gu.se/en/ggbc-global-biodiversity)
-* [Biodiversity and Ecosystem services in a Changing Climat -BECC](https://www.becc.lu.se/start)
-* [COLNADE Colegio nacional de ecólogos](https://www.colnade.co/)  
+* [BECC – Biodiversity and Ecosystems in a Changing Climate](https://www.gu.se/en/research/atmosphere-climate-ecosystems-ace#accordion=fdac0a4c-32c9-4e69-b6b6-8fa53b148ba6) ([BECC main site](https://www.becc.lu.se/start))
+* [ITEX - International Tundra Experiment](https://www.gvsu.edu/itex/)
+* [COLNADE Colegio nacional de ecólogos](https://www.colnade.co/)
 
 ## Teaching
 
-* ECKO's journal club at [University of Bergen](https://www.uib.no/en) 
+* ECKO's journal club at [University of Bergen](https://www.uib.no/en)
 * Introduction to Biology – Lecture with practical courses at [Unibasel](https://www.biozentrum.unibas.ch/bsc-in-biology) (60 hours)
 
 
@@ -43,10 +54,4 @@ description: "Ongoing and former research projects on alpine biogeography, speci
 ## External positions
 
 * [Arasari Conservation and Research](https://www.arasari-ci.com/)  - Founder
-
-<br>
-
-<center><a href="media/CV_L_Camila Pacheco_Riaño.pdf" download="cv.pdf" class="btn btn-outline-primary" role="button">CV</a></center>
-
-<br>
 

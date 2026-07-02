@@ -25,7 +25,9 @@ about:
 <p class="homepage-name">Camila Pacheco Riaño, PhD</p>
 <span class="discipline-tag">Global Change Ecology · Biogeography</span>
 
-I study how living things are distributed across the planet and what shapes those patterns, from local habitats to continental scales. My work sits at the intersection of ecology, biogeography, and global change biology.
+I'm an ecologist and biogeographer. I look at how life shifts across our planet, tracking biodiversity from single mountain slopes to entire continents. My curiosity with ecological patterns started early, growing up among the mountains of Colombia. Today, my research tackles one of our biggest modern challenges: how climate change is actively rewriting the maps of where species can survive.
+
+Now based in Sweden, I balance high-level data analysis with raw fieldwork. Whenever I am out in the ecosystem, I usually have a camera in my bag to document the landscapes I study.
 
 ## Contact
 

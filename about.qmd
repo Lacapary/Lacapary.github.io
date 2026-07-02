@@ -3,7 +3,13 @@ title: "About me"
 description: "About Camila Pacheco-Riaño: global change ecologist and biogeographer studying mountain biodiversity and climate change."
 ---
 
-I am a **global change ecologist** and **biogeographer**, currently working in the [EDGE LAB](https://edge-ecology.com/) at [Department of Biological & Environmental Sciences](https://www.gu.se/en/biological-environmental-sciences) at [University of Gothenburg](https://www.gu.se/en).
+::: {.field-portrait}
+![](media/IO_lat.jpg){fig-alt="Camila doing fieldwork by a mountain lake"}
+
+[At Latnjajaure Field Station, northern Sweden — out where most of my questions start.]{.field-cap}
+:::
+
+I am a **global change ecologist** and **biogeographer**, currently working in the [EDGE LAB](https://edge-ecology.com/) at [Department of Biological & Environmental Sciences](https://www.gu.se/en/biological-environmental-sciences) at [University of Gothenburg](https://www.gu.se/en), and affiliated with the [Gothenburg Global Biodiversity Centre (GGBC)](https://www.gu.se/en/ggbc-global-biodiversity).
 
 My research focuses on understanding what drives the complex patterns of biodiversity change over time in mountain regions around the world.
 
@@ -48,5 +54,65 @@ My educational background is in ecology with an emphasis on community ecology an
 -   Learning new skills
 -   Digital illustration
 
-<br>
-<center><a href="media/CV_L_Camila Pacheco_Riaño.pdf" download="cv.pdf" class="btn btn-outline-primary" role="button"><i class="bi bi-file-earmark-person"></i> Download CV</a></center>
+## From the field
+
+Fieldwork is where science and photography meet for me. My questions have carried me from the páramos of the Colombian Andes to the fells of northern Sweden.
+
+```{=html}
+<div class="field-slideshow" data-autoplay="6000">
+  <div class="fs-track">
+    <figure class="fs-slide" style="background-image:url('media/IMG20250705130821.jpg')">
+      <img src="media/IMG20250705130821.jpg" alt="Páramo landscape with frailejones and small lakes below a peak">
+      <figcaption>Páramo de Chingaza, Cundinamarca, Colombia — where my love for mountains began.</figcaption>
+    </figure>
+    <figure class="fs-slide" style="background-image:url('media/IMG20240817104632.jpg')">
+      <img src="media/IMG20240817104632.jpg" alt="Alpine mountain landscape with scattered tarns">
+      <figcaption>Latnjajaure Field Station, northern Sweden.</figcaption>
+    </figure>
+    <figure class="fs-slide" style="background-image:url('media/IMG20240817184653.jpg')">
+      <img src="media/IMG20240817184653.jpg" alt="Mountain avens (Dryas) seedhead held up against a lake">
+      <figcaption>Mountain avens (<em>Dryas</em>), Latnjajaure, Sweden.</figcaption>
+    </figure>
+    <figure class="fs-slide" style="background-image:url('media/IMG20240817153348.jpg')">
+      <img src="media/IMG20240817153348.jpg" alt="Alpine heather in fruit, close up">
+      <figcaption>Alpine heather in fruit, Latnjajaure, Sweden.</figcaption>
+    </figure>
+  </div>
+  <button class="fs-arrow fs-prev" aria-label="Previous photo">&#8249;</button>
+  <button class="fs-arrow fs-next" aria-label="Next photo">&#8250;</button>
+  <span class="fs-credit">&copy; Camila Pacheco-Riaño</span>
+  <div class="fs-dots" aria-hidden="true"></div>
+</div>
+<script>
+(function () {
+  document.querySelectorAll('.field-slideshow').forEach(function (ss) {
+    var track = ss.querySelector('.fs-track');
+    var slides = Array.prototype.slice.call(ss.querySelectorAll('.fs-slide'));
+    var dotsWrap = ss.querySelector('.fs-dots');
+    var i = 0, timer = null;
+    var delay = parseInt(ss.getAttribute('data-autoplay'), 10) || 0;
+    slides.forEach(function (_, n) {
+      var d = document.createElement('button');
+      d.className = 'fs-dot';
+      d.addEventListener('click', function () { go(n); reset(); });
+      dotsWrap.appendChild(d);
+    });
+    var dots = Array.prototype.slice.call(dotsWrap.children);
+    function go(n) {
+      i = (n + slides.length) % slides.length;
+      track.style.transform = 'translateX(' + (-i * 100) + '%)';
+      dots.forEach(function (d, k) { d.classList.toggle('active', k === i); });
+    }
+    function next() { go(i + 1); }
+    function prev() { go(i - 1); }
+    function reset() { if (delay) { clearInterval(timer); timer = setInterval(next, delay); } }
+    ss.querySelector('.fs-next').addEventListener('click', function () { next(); reset(); });
+    ss.querySelector('.fs-prev').addEventListener('click', function () { prev(); reset(); });
+    ss.addEventListener('mouseenter', function () { clearInterval(timer); });
+    ss.addEventListener('mouseleave', reset);
+    go(0);
+    reset();
+  });
+})();
+</script>
+```

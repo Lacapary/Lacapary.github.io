@@ -1,9 +1,18 @@
 ---
 title: "Get in touch!📬"
 ---
-## Project ideas
+## Let's work together
 
-I enjoy working collaboratively, and I am always interested in projects that pull real insight out of messy environmental data and turn it into something actionable. If you want to collaborate, exchange ideas, or discuss work at the intersection of ecology, climate change, remote sensing, and AI in ecology, feel free to reach out.
+I care about open science, collaboration, and building a kind, supportive space where both people and good research can grow.
 
-Let's chat! [email](mailto:pachecoriano.c@gmail.com).
+If you're curious, excited about research, or simply want to exchange ideas, feel free to reach out.
+
+<center>
+  <a href="mailto:pachecoriano.c@gmail.com?subject=Subject&body=Body%20Text" class="btn btn-outline-primary" role="button">
+    <i class="fa fa-envelope"></i> Email Me
+  </a>
+</center>
+
+<br>
+<p style="text-align: center;">*Hope to hear from you soon!* 🌿</p>
 

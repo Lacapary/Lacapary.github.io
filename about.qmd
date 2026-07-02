@@ -13,9 +13,9 @@ I am a **global change ecologist** and **biogeographer**, currently working in t
 
 My research focuses on understanding what drives the complex patterns of biodiversity change over time in mountain regions around the world.
 
-I grew up in Colombia, surrounded by stunning landscapes and diverse ecosystems, which sparked my passion for ecology. At the same time, I witnessed the very real threats of climate change and human activities on biodiversity, experiences that shaped my drive to understand the patterns and processes behind these changes.
+I grew up in Colombia, surrounded by stunning landscapes and diverse ecosystems, which sparked my passion for ecology. At the same time, I witnessed the very real threats of climate change and human activities to biodiversity, experiences that shaped my drive to understand the patterns and processes behind these changes.
 
-As a computational ecologist, I use analytical tools and Bayesian modeling to create innovative frameworks that help answer key ecological questions. My work focuses on analyzing big data and uncovering the global processes that influence biodiversity's distribution across space and time. While much of my research has centered on the Neotropics, I’ve also explored Forest, Alpine, Tundra, and Mediterranean ecosystems.
+As a computational ecologist, I use analytical tools and Bayesian modeling to create novel frameworks that help answer key ecological questions. My work focuses on analyzing big data and uncovering the global processes that influence biodiversity's distribution across space and time. While much of my research has centered on the Neotropics, I’ve also explored Forest, Alpine, Tundra, and Mediterranean ecosystems.
 
 In addition to my research, I’m deeply passionate about data visualization and making science accessible to a wider audience, especially when it comes to wildlife conservation.
 
@@ -23,7 +23,7 @@ My research activity is structured around five main lines:
 
 -   Biogeography
 -   Spatial modeling (GIS)
--   Species Range shift
+-   Species range shifts
 -   Landscape ecology
 -   Biodiversity conservation
 
@@ -56,7 +56,7 @@ My educational background is in ecology with an emphasis on community ecology an
 
 ## From the field
 
-Fieldwork is where science and photography meet for me. My questions have carried me from the páramos of the Colombian Andes to the fells of northern Sweden.
+Fieldwork is where science and photography meet for me. My questions have carried me from the páramos of the Colombian Andes to the Fjällen of northern Sweden.
 
 ```{=html}
 <div class="field-slideshow" data-autoplay="6000">

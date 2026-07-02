@@ -175,4 +175,213 @@ thead th {
   font-size: 0.85rem;
   padding: 0.5rem 0;
   font-family: 'DM Sans', sans-serif;
+  justify-content: center;
+}
+
+/* Center the footer text properly (the empty side columns push it off-center) */
+.nav-footer-left,
+.nav-footer-right {
+  display: none;
+}
+
+.nav-footer-center {
+  flex: 0 1 auto;
+  text-align: center;
+}
+
+.nav-footer .footer-items {
+  margin: 0;
+  padding: 0;
+}
+
+/* Field portrait on the About page — floated so the text wraps around it */
+.field-portrait {
+  float: right;
+  width: 190px;
+  max-width: 35%;
+  margin: 0.2rem 0 1rem 1.75rem;
+  text-align: center;
+}
+
+.field-portrait p {
+  margin: 0;
+}
+
+.field-portrait img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.field-portrait .field-cap {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: #913351;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .field-portrait {
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 1.5rem auto;
+  }
+}
+
+/* "From the field" photo slideshow */
+.field-slideshow {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 1.5rem 0 2.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.field-slideshow .fs-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.field-slideshow .fs-slide {
+  position: relative;
+  flex: 0 0 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #14202a;
+}
+
+/* Blurred fill so portrait and landscape photos share one clean frame */
+.field-slideshow .fs-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  filter: blur(22px) brightness(0.55);
+  transform: scale(1.15);
+  z-index: 0;
+}
+
+.field-slideshow .fs-slide img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 440px;
+  object-fit: contain;
+  margin: 0;
+}
+
+.field-slideshow .fs-slide figcaption {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2.5rem 1rem 0.9rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+}
+
+.field-slideshow .fs-slide figcaption em {
+  color: #fff;
+}
+
+.field-slideshow .fs-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.75);
+  color: #913351;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.field-slideshow .fs-arrow:hover {
+  background: #fff;
+}
+
+.field-slideshow .fs-prev { left: 0.6rem; }
+.field-slideshow .fs-next { right: 0.6rem; }
+
+/* Copyright credit on the photos */
+.field-slideshow .fs-credit {
+  position: absolute;
+  z-index: 2;
+  top: 0.6rem;
+  right: 0.7rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.32);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.field-slideshow .fs-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.6rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.field-slideshow .fs-dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.field-slideshow .fs-dot.active {
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  .field-slideshow .fs-slide img {
+    height: 300px;
+  }
+}
+
+/* Replace the fallback navbar Bluesky glyph with the real Bluesky logo */
+.navbar .quarto-navigation-tool[href*="bsky.app"] i {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.296 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.479 0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.296 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.479 0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* Hide the original Bootstrap glyph so only the masked logo shows */
+.navbar .quarto-navigation-tool[href*="bsky.app"] i::before {
+  content: "";
 }

@@ -1,7 +1,6 @@
 ---
 title: "Camila Pacheco Riaño, PhD"
 description: "Personal website of Camila Pacheco-Riaño, global change ecologist and biogeographer."
-toc: false
 about:
   template: trestles
   image: media/IO.jpg

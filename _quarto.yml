@@ -59,7 +59,7 @@ highlight-style: a11y
 
 format:
   html:
-    toc: true
+    toc: false
     theme: 
       light: [simplex, css/custom.scss]
       dark: [simplex, css/dark.scss, css/custom.scss]

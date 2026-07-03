@@ -17,6 +17,45 @@ biblio_opts <- list(
 
 ```
 
+<style>
+.authors-toggle {
+  cursor: pointer;
+  font-size: 0.92em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.authors-toggle:hover,
+.authors-toggle:focus {
+  text-decoration: underline;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".authors-wrap").forEach(function (wrap) {
+    var collapsed = wrap.querySelector(".authors-collapsed");
+    var full = wrap.querySelector(".authors-full");
+    if (!collapsed || !full) return;
+
+    wrap.querySelectorAll(".authors-toggle").forEach(function (toggle) {
+      var toggleAuthors = function () {
+        var isCollapsed = full.style.display === "none";
+        collapsed.style.display = isCollapsed ? "none" : "";
+        full.style.display = isCollapsed ? "" : "none";
+      };
+
+      toggle.addEventListener("click", toggleAuthors);
+      toggle.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          toggleAuthors();
+        }
+      });
+    });
+  });
+});
+</script>
 ::: panel-tabset
 ### Journal Articles
 

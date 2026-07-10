@@ -6,7 +6,7 @@ description: "About Camila Pacheco-Riaño: global change ecologist and biogeogra
 ::: {.field-portrait}
 ![](media/IO_lat.jpg){fig-alt="Camila doing fieldwork by a mountain lake"}
 
-[At Latnjajaure Field Station, northern Sweden — out where most of my questions start.]{.field-cap}
+[At Latnjajaure Field Station, northern Sweden]{.field-cap}
 :::
 
 I am a **global change ecologist** and **biogeographer**, currently working in the [EDGE LAB](https://edge-ecology.com/) at [Department of Biological & Environmental Sciences](https://www.gu.se/en/biological-environmental-sciences) at [University of Gothenburg](https://www.gu.se/en), and affiliated with the [Gothenburg Global Biodiversity Centre (GGBC)](https://www.gu.se/en/ggbc-global-biodiversity).

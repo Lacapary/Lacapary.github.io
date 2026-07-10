@@ -27,6 +27,13 @@ My research activity is structured around five main lines:
 -   Landscape ecology
 -   Biodiversity conservation
 
+<figure class="science-quote" aria-label="Quote from Arthur Tansley">
+  <blockquote>
+    Every genuine worker in science is an explorer, who is continually meeting fresh things and fresh situations, to which they have to adapt their material and mental equipment.
+  </blockquote>
+  <figcaption>Arthur Tansley, 1923:97. Adapted for inclusive language.</figcaption>
+</figure>
+
 ## Education
 
 My educational background is in ecology with an emphasis on community ecology and spatial modeling.

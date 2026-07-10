@@ -224,6 +224,129 @@ thead th {
   line-height: 1.4;
 }
 
+/* Slow smoke-reveal quote on the About page */
+.science-quote {
+  position: relative;
+  width: min(100%, 660px);
+  margin: 2.4rem auto 2.8rem;
+  padding: 2.2rem 1.8rem 1.7rem;
+  text-align: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.science-quote::before,
+.science-quote::after {
+  content: "";
+  position: absolute;
+  inset: 18% 8%;
+  z-index: -1;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 45%, rgba(145, 51, 81, 0.18), transparent 58%),
+              radial-gradient(circle at 68% 35%, rgba(18, 79, 100, 0.13), transparent 55%);
+  filter: blur(22px);
+  opacity: 0;
+  transform: translateY(18px) scale(0.86);
+  animation: quote-smoke 7s ease-out forwards;
+}
+
+.science-quote::after {
+  inset: 24% 18% 12%;
+  background: radial-gradient(circle at 55% 42%, rgba(120, 194, 7, 0.13), transparent 60%),
+              radial-gradient(circle at 38% 62%, rgba(145, 51, 81, 0.12), transparent 58%);
+  animation-duration: 9s;
+  animation-delay: 0.4s;
+}
+
+.science-quote blockquote {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.28rem, 2.3vw, 1.85rem);
+  line-height: 1.55;
+  color: #913351;
+  opacity: 0;
+  filter: blur(14px);
+  transform: translateY(14px);
+  animation: quote-appear 4.8s ease-out 0.25s forwards;
+}
+
+.science-quote blockquote::before,
+.science-quote blockquote::after {
+  color: rgba(145, 51, 81, 0.45);
+}
+
+.science-quote blockquote::before { content: "\201C"; }
+.science-quote blockquote::after { content: "\201D"; }
+
+.science-quote figcaption {
+  margin-top: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #124f64;
+  opacity: 0;
+  animation: quote-credit 3.2s ease-out 2.1s forwards;
+}
+
+@keyframes quote-appear {
+  0% {
+    opacity: 0;
+    filter: blur(14px);
+    transform: translateY(14px);
+  }
+  65% {
+    opacity: 0.78;
+    filter: blur(3px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes quote-smoke {
+  0% {
+    opacity: 0;
+    transform: translateY(18px) scale(0.86) rotate(0deg);
+  }
+  45% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.45;
+    transform: translateY(-18px) scale(1.18) rotate(7deg);
+  }
+}
+
+@keyframes quote-credit {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 0.78;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .science-quote::before,
+  .science-quote::after,
+  .science-quote blockquote,
+  .science-quote figcaption {
+    animation: none;
+    opacity: 1;
+    filter: none;
+    transform: none;
+  }
+
+  .science-quote::before,
+  .science-quote::after {
+    opacity: 0.35;
+  }
+}
 @media (max-width: 600px) {
   .field-portrait {
     float: none;
